@@ -27,12 +27,12 @@ import 'WelayatScreen.dart';
 
 
 
-
+import 'package:tapsana/DetailScreen.dart';
 import 'Searchpagescreen.dart';
 
 import 'package:tapsana/LangScreen.dart';
 import 'package:animate_do/animate_do.dart';
-
+import 'package:tapsana/VideoPlayerApp.dart';
 
 
 
@@ -134,7 +134,7 @@ name();
 
   await FirebaseMessaging.instance.setAutoInitEnabled(true);
 
-  FirebaseMessaging messaging = FirebaseMessaging.instance;
+  //FirebaseMessaging messaging = FirebaseMessaging.instance;
 
   // NotificationSettings settings = await messaging.requestPermission(
   //   alert: true,
@@ -497,7 +497,7 @@ class _MyHomePageState extends State<MyHomePage> {
     List posts = [];
     try {
       // This is an open REST API endpoint for testing purposes
-      String apiUrl = 'https://zamanturkmenistan.com.tm/zaman/admin/index.php/buttons/buttonsf?lang='+lang??"tm";
+      String apiUrl = 'https://zamanturkmenistan.com.tm/zaman/admin/index.php/buttons/buttonsf?lang='+lang;
 
       final http.Response response = await http.get(Uri.parse(apiUrl));
       posts = json.decode(response.body);

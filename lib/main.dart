@@ -27,12 +27,12 @@ import 'WelayatScreen.dart';
 
 
 
-import 'package:tapsana/DetailScreen.dart';
+
 import 'Searchpagescreen.dart';
 
 import 'package:tapsana/LangScreen.dart';
 import 'package:animate_do/animate_do.dart';
-import 'package:tapsana/VideoPlayerApp.dart';
+
 
 
 
@@ -110,7 +110,7 @@ void main() async{
 
 
 
-  final GlobalKey<NavigatorState> navigatorKey = GlobalKey<NavigatorState>();
+  //final GlobalKey<NavigatorState> navigatorKey = GlobalKey<NavigatorState>();
 
 name();
 
@@ -136,16 +136,16 @@ name();
 
   FirebaseMessaging messaging = FirebaseMessaging.instance;
 
-  NotificationSettings settings = await messaging.requestPermission(
-    alert: true,
-    announcement: false,
-    badge: true,
-    carPlay: false,
-    criticalAlert: false,
-    provisional: false,
-    sound: true,
-  );
-
+  // NotificationSettings settings = await messaging.requestPermission(
+  //   alert: true,
+  //   announcement: false,
+  //   badge: true,
+  //   carPlay: false,
+  //   criticalAlert: false,
+  //   provisional: false,
+  //   sound: true,
+  // );
+  //
 
 
 
@@ -154,7 +154,7 @@ name();
   FirebaseMessaging.onMessageOpenedApp.listen((RemoteMessage? message) {
     if (message != null) {
 
-      List pushes=[];
+      //List pushes=[];
 
 
 
@@ -450,7 +450,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Future<List> _loadData() async {
     List posts = [];
 
-    var token = "Setupvpn2022!";
+    //var token = "Setupvpn2022!";
 
     await storage.ready;
     String lang = await storage.getItem('lang');

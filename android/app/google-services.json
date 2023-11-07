@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "602124283036",
+    "firebase_url": "https://zaman-35427.firebaseio.com",
+    "project_id": "zaman-35427",
+    "storage_bucket": "zaman-35427.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:602124283036:android:14a7803b8ca01585",
+        "android_client_info": {
+          "package_name": "com.zamanturkmenistan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "602124283036-qevt99bvnrdcvkjth294pcem3vs5vt03.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWOTbH3t_bBERc8qdN76QvKs3RqNWoMek"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "602124283036-qevt99bvnrdcvkjth294pcem3vs5vt03.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "602124283036-ahha7ddhjf7kr7g89ce73prtri9aqqnc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.app.tapsana"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

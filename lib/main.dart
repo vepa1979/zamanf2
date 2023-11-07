@@ -63,7 +63,6 @@ final List<String> listselected= <String>[];
 
 
 
-
 var myJson = {
   "data": [
     {'tm': 'Iň täze habarlar', 'ru': "Последние новости"},

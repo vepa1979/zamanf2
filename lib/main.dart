@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'dart:convert';
 
-//import 'package:flutter/services.dart';
+
 import 'package:http/http.dart' as http;
 import 'package:flutter/material.dart';
 import 'package:flutter/foundation.dart';
@@ -10,9 +10,7 @@ import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:in_app_webview/in_app_webview.dart';
 import 'package:localstorage/localstorage.dart';
 
-import 'package:flutter/material.dart';
-import 'package:flutter_local_notifications/flutter_local_notifications.dart';
-import 'package:change_app_package_name/change_app_package_name.dart';
+
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:overlay_support/overlay_support.dart';
 import 'package:tapsana/CalendarScreen.dart';
@@ -27,12 +25,11 @@ import 'package:tapsana/ChildScreen.dart';
 import "package:tapsana/OptionsScreen.dart";
 import 'WelayatScreen.dart';
 
-import 'CalendarScreen.dart';
-import 'package:image_picker/image_picker.dart';
+
 
 import 'package:tapsana/DetailScreen.dart';
 import 'Searchpagescreen.dart';
-import 'package:dio/dio.dart';
+
 import 'package:tapsana/LangScreen.dart';
 import 'package:animate_do/animate_do.dart';
 import 'package:tapsana/VideoPlayerApp.dart';

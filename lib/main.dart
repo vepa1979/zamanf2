@@ -508,7 +508,6 @@ class _MyHomePageState extends State<MyHomePage> {
         print(err);
       }
     }
-
     return posts;
   }
 
